@@ -11,4 +11,4 @@ php bin/magento cache:flush
 
 ## Usage
 
-This module will handle itself. Every hour it will clean up the search terms table, marking search terms that looks inappropriated as "suggested" and deleting search terms that are marked as "inactive".
+This module will check the "search_query" table every 6th hour and see if it can find any searches that might be inappropriate. If it finds any, it will mark them as "inactive" and they will not be shown in the similar searches.
