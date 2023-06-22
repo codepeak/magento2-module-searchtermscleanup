@@ -3,7 +3,7 @@
 ## Installation
 
 ```
-composer require magento2-module-searchtermscleanup
+composer require codepeak/magento2-module-searchtermscleanup
 php bin/magento module:enable Codepeak_SearchTermsCleanup
 php bin/magento setup:upgrade
 php bin/magento cache:flush
