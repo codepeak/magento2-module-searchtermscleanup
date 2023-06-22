@@ -9,7 +9,7 @@
             "email": "robert@codepeak.se"
         }
     ],
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "require": {},
     "autoload": {
         "files": [
