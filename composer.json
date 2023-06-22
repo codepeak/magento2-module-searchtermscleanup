@@ -1,0 +1,22 @@
+{
+    "name": "codepeak/magento2-module-searchtermscleanup",
+    "description": "Hide hacking attempts and junk from Search Terms table (search_query)",
+    "type": "magento2-module",
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "name": "Robert Lord, Codepeak AB",
+            "email": "robert@codepeak.se"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Codepeak\\SearchTermsCleanup\\": ""
+        }
+    }
+}
